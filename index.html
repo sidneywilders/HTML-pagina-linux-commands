@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux Commando's</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #00bcd4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #222;
+      color: #00e676;
+    }
+    tr:nth-child(even) {
+      background-color: #1e1e1e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Handige Linux Commando's</h1>
+
+  <table>
+    <tr><th>Commando</th><th>Beschrijving</th></tr>
+    <tr><td>pwd</td><td>Print working directory</td></tr>
+    <tr><td>ls</td><td>List bestanden</td></tr>
+    <tr><td>ls -l</td><td>Laat zien wanneer bestanden zijn aangemaakt</td></tr>
+    <tr><td>ls -a</td><td>Toont alle bestanden (ook verborgen)</td></tr>
+    <tr><td>cd</td><td>Verander directory</td></tr>
+    <tr><td>cd /var/home</td><td>Ga naar opgegeven map</td></tr>
+    <tr><td>cd ..</td><td>Ga één map omhoog</td></tr>
+    <tr><td>touch</td><td>Maak een lege file</td></tr>
+    <tr><td>mkdir</td><td>Maak een nieuwe map</td></tr>
+    <tr><td>rm</td><td>Verwijder bestand of map</td></tr>
+    <tr><td>cp</td><td>Kopieer bestand of map</td></tr>
+    <tr><td>mv</td><td>Verplaats bestand of map</td></tr>
+    <tr><td>man</td><td>Toont uitleg over een commando</td></tr>
+    <tr><td>tree</td><td>Toont folderstructuur</td></tr>
+    <tr><td>nano</td><td>Command line teksteditor</td></tr>
+    <tr><td>cat</td><td>Laat inhoud van bestand zien</td></tr>
+    <tr><td>less</td><td>Bekijk inhoud per pagina</td></tr>
+    <tr><td>head</td><td>Laat bovenkant van een bestand zien</td></tr>
+    <tr><td>tail</td><td>Laat onderkant van een bestand zien</td></tr>
+    <tr><td>clear</td><td>Maak terminal leeg</td></tr>
+    <tr><td>ctrl + x</td><td>Sluit nano af</td></tr>
+    <tr><td>q</td><td>Sluit less viewer af</td></tr>
+    <tr><td>head -n 5</td><td>Toon de eerste 5 regels</td></tr>
+    <tr><td>tail -n 5</td><td>Toon de laatste 5 regels</td></tr>
+    <tr><td>tail -f</td><td>Volg een bestand live</td></tr>
+    <tr><td>sudo less /var/log/syslog</td><td>Open systeemlogboek</td></tr>
+    <tr><td>sudo tail /var/log/syslog</td><td>Bekijk laatste regels van logboek</td></tr>
+    <tr><td>sudo head /var/log/syslog</td><td>Bekijk eerste regels van logboek</td></tr>
+    <tr><td>sudo cat /var/log/syslog</td><td>Toon volledige inhoud van logbestand</td></tr>
+  </table>
+
+</body>
+</html>
